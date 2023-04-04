@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Neatio | Bridge</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Neatio Network crosschain bridge to Binance Smart Chain user interface.">
+    <meta name="keywords" content="Neatio blockchain network web3 defi payments">
+    <meta name="author" content="https://github.com/MrTizu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <link href="/css/mdb.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/toastr.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/nunito.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-color:#24292f;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-1">
+        <div class="container">
+            <a class="navbar-brand headerLeft" href="/">NeatBridge</a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0 m-2">
+                    <a class="nav-link active theme-color-1 h4  m-2" aria-current="page" href="/swap">Bridge</a>
+                    <a class="nav-link theme-color-1 h4  m-2" href="/transactions">Transactions</a>
+                    <a class="nav-link theme-color-1 h4  m-2" href="/faq">Info</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container pt-5 nunito">
+        <div class="row justify-content-center">
+
+
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                <div class="card border border-brown shadow">
+                    <a class="card-body text-center"style="color: #4f4f4f;"id="bsc-link">
+                        <h4><img src="/images/bsc.png" style="height:40px;" class="mb-2 me-2">Total Wrapped NEAT issued</h4>
+                        <h5 id="total-bsc">- NEAT</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                <div class="card border border-brown shadow">
+                    <a class="card-body text-center"style="color: #4f4f4f;"id="neatio-link">
+                        <h4><img src="/images/neat.png" style="height:40px;" class="mb-2 me-2">Total NEAT in custody</h4>
+                        <h5 id="total-neat">- NEAT</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 mb-3 ">
+                <div class="mb-3 mx-auto w-75">
+                    <div class="text-dark">
+                        <h5 class="card-title">What is Wrapped NEAT?</h5>
+                        <p class="card-text">The NEAT token on Binance Smart Chain is a pegged version of the native $NEAT coin of the Neatio Blockchain. It’s called a wrapped NEAT because the original asset is put in a wrapper, a kind of digital vault that allows the wrapped version to be created on another blockchain, in our case the Binance Smart Chain.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <a class="custom-btn-blue" style="min-width: 18%;font-size: medium; background-color: #00bfff;" href="/swap">BRIDGE</a>
+            </div>
+        </div>
+        <script src="/lib/mdb.min.js"></script>
+        <script src="/lib/web3.min.js"></script>
+        <script src="/lib/jquery-3.5.1.min.js"></script>
+        <script src="/lib/axios.min.js" crossorigin="anonymous"></script>
+        <script src="/lib/toastr.min.js" crossorigin="anonymous"></script>
+        <script src="/lib/moment.js" crossorigin="anonymous"></script>
+        <script src="/js/script.js"></script>
+        <script src="/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Pirulen';
+  src: url('../fonts/PirulenRg-Regular.eot');
+  src: url('../fonts/PirulenRg-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PirulenRg-Regular.woff2') format('woff2'),
+      url('../fonts/PirulenRg-Regular.woff') format('woff'),
+      url('../fonts/PirulenRg-Regular.svg#PirulenRg-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+  
+
+.bg-ligh {
+  color: #000000;
+}
+
+.custom-btn-blue {
+  background: transparent;
+  border-radius: var(--border-radius-small);
+  padding: 14px 24px;
+  color: var(--btn-green);
+  font-size: var(--menu-font-size);
+  font-weight: var(--font-weight-normal);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.custom-btn-blue:hover {
+  color: var(--btn-green);
+}
+
+.custom-btn-blue:focus {
+  box-shadow: none;
+}
+
+.custom-btn-blue.bordered:hover,
+.custom-btn-blue.bordered:focus,
+
+.custom-btn-blue.bg-color:hover,
+.custom-btn-blue.bg-color:focus {
+  background: var(--white-color);
+  border-color: transparent;
+  color: var(--btn-blue);
+}
+.bordered {
+  border: 1px solid var(--btn-blue);
+  color: var(--btn-blue);
+}
+
+.bg-color {
+  background: var(--primary-color);
+  color: var(--white-color);
+  
+}
+
+.headerLeft {
+  font-family: Pirulen !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  text-align: left !important;
+  color: #00ffff !important;
+}
+
+.theme-color-1 {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #00ffff !important;
+  
+}
+.theme-color-2 {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: #80765e !important;
+}
+.border-brown {
+  border-color: #00ffff !important;
+}
+
+.swap-line::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  background: linear-gradient(269.98deg, #fff4db -0.02%, #00bfff 100%);
+}
+
+.nunito {
+  font-family: Pirulen;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}

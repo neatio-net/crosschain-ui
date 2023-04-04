@@ -1,0 +1,31 @@
+{
+    "title": "NeatBridge To BSC",
+    "name": "neatio-bridge-ui",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "description": "Neatio Network crosschain bridge to Binance Smart Chain user interface.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "license": "MIT",
+    "author": "MrTizu",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/neatio-network/crosschain-ui"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "http-proxy-middleware": "^1.0.6",
+        "node-http-proxy-json": "^0.1.9",
+        "serve-handler": "^6.1.3"
+    }
+}
