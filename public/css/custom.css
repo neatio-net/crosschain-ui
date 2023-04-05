@@ -10,6 +10,9 @@
   font-display: swap;
 }
   
+.card {
+  background-color: transparent;
+}
 
 .bg-ligh {
   color: #000000;
