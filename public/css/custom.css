@@ -12,6 +12,7 @@
   
 .card {
   background-color: transparent;
+  min-height: 120px;
 }
 
 .bg-ligh {
@@ -76,7 +77,7 @@
 .theme-color-2 {
   font-size: 15px !important;
   font-weight: 500 !important;
-  color: #80765e !important;
+  color: #496785 !important;
 }
 .border-brown {
   border-color: #00ffff !important;
