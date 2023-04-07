@@ -15,6 +15,10 @@
   min-height: 120px;
 }
 
+.shadow {
+  box-shadow: 0 0 .7rem rgba(0,191,255,1)!important;
+}
+
 .bg-ligh {
   color: #000000;
 }
