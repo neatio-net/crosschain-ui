@@ -25,9 +25,9 @@
 
 .custom-btn-blue {
   background: transparent;
-  border-radius: var(--border-radius-small);
+  border-radius: 10px;
   padding: 14px 24px;
-  color: var(--btn-green);
+  color: #000;
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-normal);
   text-transform: uppercase;
@@ -37,7 +37,7 @@
 }
 
 .custom-btn-blue:hover {
-  color: var(--btn-green);
+  color: #fff;
 }
 
 .custom-btn-blue:focus {
@@ -49,12 +49,12 @@
 
 .custom-btn-blue.bg-color:hover,
 .custom-btn-blue.bg-color:focus {
-  background: var(--white-color);
-  border-color: transparent;
-  color: var(--btn-blue);
+  background: transparent;
+  border-color: #000;
+  color: #00bfff;
 }
 .bordered {
-  border: 1px solid var(--btn-blue);
+  border: 1px solid #000000;
   color: var(--btn-blue);
 }
 
