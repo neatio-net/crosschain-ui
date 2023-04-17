@@ -64,6 +64,10 @@
   
 }
 
+.card-body{
+  min-width:480px;
+}
+
 .headerLeft {
   font-family: Pirulen !important;
   font-size: 18px !important;
