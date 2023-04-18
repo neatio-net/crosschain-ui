@@ -5,7 +5,7 @@
   <title>Neatio | Bridge</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="description" content="Neatio Network crosschain bridge to Binance Smart Chain user interface.">
+  <meta name="description" content="Neatio Network crosschain bridge to Binance Chain user interface.">
   <meta name="keywords" content="Neatio blockchain network web3 defi payments">
   <meta name="author" content="https://github.com/MrTizu">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -46,11 +46,11 @@
           <div class="col" id="button-0">
             <div class="card swap-line" id="card-0">
               <div class="card-body text-center" role="button" onclick="neatToBNB();">
-                <img src="/images/neat.png" style="height:27px;" class="mb-1 mr-2 ml-2">
+                <img src="/images/neat.png" style="height:40px;" class="mb-1 mr-2 ml-2">
                 <span class="card-text h5">Neatio Network</span>
-                <img src="/images/arrow.png" width="30" height="25" class="p-1">
-                <img src="/images/bsc.png" style="height:27px; margin-bottom:0.2rem;">
-                <span class="card-text h5">Binance Smart Chain</span>
+                <img src="/images/arrow.png" width="40" height="25" class="p-1">                
+                <span class="card-text h5">Binance Chain</span>
+                <img src="/images/bsc.png" style="height:40px; margin-bottom:0.2rem;">
               </div>
             </div>
           </div>
@@ -58,11 +58,11 @@
           <div class="col" id="button-1" style="opacity: 0.5;">
             <div class="card" id="card-1">
               <div class="card-body text-center" role="button" onclick="bnbToNeat();">
-                <img src="/images/bsc.png" style="height:27px; margin-bottom:0.2rem;">
-                <span class="card-text h5">Binance Smart Chain</span>
-                <img src="/images/arrow.png" width="30" height="25" class="p-1">
-                <img src="/images/neat.png" style="height:27px;" class="mb-1 mr-2 ml-2">
-                <span class="card-text h5">Neatio Network</span>
+                <img src="/images/bsc.png" style="height:40px; margin-bottom:0.2rem;">
+                <span class="card-text h5">Binance Chain</span>
+                <img src="/images/arrow.png" width="40" height="25" class="p-1">
+                 <span class="card-text h5">Neatio Network</span>
+                <img src="/images/neat.png" style="height:40px;font-family: Pirulen;" class="mb-1 mr-2 ml-2">
               </div>
             </div>
           </div>
@@ -76,13 +76,12 @@
               <div class="form-outline">
                 <input type="number" class="form-control" id="form-amount" oninput="setNumberDecimal()" step="0.000001"
                   required>
-                <label class="form-label" for="form-amount">Amount</label>
+                <label class="form-label" for="form-amount" style="color:azure">Amount</label>
               </div>
               <p class="form-text text-muted">Slightly less will be swapped</p>
               <div class="form-outline">
                 <input type="text" class="form-control" pattern="^0x[a-fA-F0-9]{40}" id="form-to" required>
-                <label class="form-label" for="form-to" id="form-to-text">Your BSC wallet address (e.g.
-                  Metamask)</label>
+                <label class="form-label" for="form-to" id="form-to-text" style="color:azure">Your BSC wallet address</label>
               </div>
 
               <div class="form-check" style="padding-left:2.2em; margin-top: 3px;">
