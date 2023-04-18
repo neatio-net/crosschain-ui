@@ -1,1 +1,1 @@
-## Neatio Crosschain Bridge To Binance Smart Chain 
+## Neatio Crosschain Bridge To Binance Chain 

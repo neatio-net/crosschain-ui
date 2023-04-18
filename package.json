@@ -5,7 +5,7 @@
     "scripts": {
         "start": "node index.js"
     },
-    "description": "Neatio Network crosschain bridge to Binance Smart Chain user interface.",
+    "description": "Neatio Network crosschain bridge to Binance Chain user interface.",
     "keywords": [
         "css",
         "sass",
