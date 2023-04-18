@@ -44,7 +44,7 @@ function fetchData() {
             if (response.data.result.type == 0) {
                 document.getElementById("card-type").innerHTML = 'NEATIO <i class="fas fa-angle-double-right"></i> BSC';
                 document.getElementById("step1-title").innerHTML = "1. Send the required amount to the bridge's contract";
-                document.getElementById("step2-title").innerHTML = "2. The bridge will mint $NEAT tokens on Binance Smart Chain for your BSC address";
+                document.getElementById("step2-title").innerHTML = "2. The bridge will mint $NEAT tokens on Binance Chain for your BSC address";
                 document.getElementById("action-button").onclick = openNeatioApp;
                 document.getElementById("action-button").innerHTML = "Send with Neatio App";
                 if (response.data.result.neat_tx) {
