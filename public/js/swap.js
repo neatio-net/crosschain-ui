@@ -4,7 +4,7 @@ function bnbToNeat() {
     document.getElementById("card-0").classList.remove("swap-line");
     document.getElementById("card-1").classList.add("swap-line");
     document.getElementById("form-type").value = 1;
-    document.getElementById("form-to-text").innerHTML = "Your Neatio wallet address";
+    document.getElementById("form-to-text").innerHTML = "Neatio Network wallet address";
     document.getElementById("form-title").innerHTML = "Swap wNEAT to NEAT";
 }
 function neatToBNB() {
@@ -13,7 +13,7 @@ function neatToBNB() {
     document.getElementById("card-0").classList.add("swap-line");
     document.getElementById("card-1").classList.remove("swap-line");
     document.getElementById("form-type").value = 0;
-    document.getElementById("form-to-text").innerHTML = "Your BSC wallet address";
+    document.getElementById("form-to-text").innerHTML = "Binance Chain wallet address";
     document.getElementById("form-title").innerHTML = "Swap NEAT to wNEAT";
 }
 function createSwap() {
