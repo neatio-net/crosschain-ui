@@ -46,9 +46,9 @@ font-style: normal;
   min-height: 120px;
 }
 
-.shadow {
+/* .shadow {
   box-shadow: 0 0 .7rem rgba(0,191,255,1)!important;
-}
+} */
 
 .bg-ligh {
   color: #000000;
@@ -103,7 +103,7 @@ font-style: normal;
 }
 
 .card-text{
-  font-family: Computer;
+  /* font-family: Plain; */
   color:#fff;
 }
 
@@ -126,9 +126,9 @@ font-style: normal;
   font-weight: 500 !important;
   color: #496785 !important;
 }
-.border-brown {
+/* .border-brown {
   border-color: #00ffff !important;
-}
+} */
 
 /* .swap-line::after {
   display: block;
