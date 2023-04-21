@@ -9,6 +9,37 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Plain';
+  src: url('../fonts/Plain-Regular.woff2') format('woff2'),
+      url('../fonts/Plain-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain';
+  src: url('../fonts/Plain-Light.woff2') format('woff2'),
+      url('../fonts/Plain-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain';
+  src: url('../fonts/Plain-Bold.woff2') format('woff2'),
+      url('../fonts/Plain-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+font-family: 'Computer';
+src: url('../fonts/cmunbbx.ttf') format('ttf');
+font-weight: bold;
+font-style: normal;
+}
   
 .card {
   background-color: transparent;
@@ -72,7 +103,7 @@
 }
 
 .card-text{
-  font-family: Pirulen;
+  font-family: Computer;
   color:#fff;
 }
 
