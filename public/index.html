@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>Neatio | Bridge</title>
   <meta charset="UTF-8">
@@ -15,9 +14,7 @@
   <link href="/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="/css/nunito.css" rel="stylesheet" type="text/css">
 </head>
-
 <body style="background-color:#24292f;">
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light p-1">
     <div class="container">
       <a class="navbar-brand headerLeft" href="/">NeatBridge</a>
@@ -25,20 +22,15 @@
         aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarRightAlignExample">
         <div class="navbar-nav ms-auto mb-2 mb-lg-0 m-2">
           <a class="nav-link active theme-color-1 h4  m-2" aria-current="page" href="/swap">Bridge</a>
           <a class="nav-link theme-color-1 h4  m-2" href="/transactions">Transactions</a>
           <a class="nav-link theme-color-1 h4  m-2" href="/faq">FAQ</a>
-
         </div>
-
       </div>
     </div>
   </nav>
-
-
   <div class="container pt-5">
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-9 col-lg-7 mb-3">
@@ -54,7 +46,6 @@
               </div>
             </div>
           </div>
-
           <div class="col" id="button-1" style="opacity: 0.5;">
             <div class="card" id="card-1">
               <div class="card-body text-center" role="button" onclick="bnbToNeat();">
@@ -71,7 +62,6 @@
         <div class="card">
           <div class="card-body p-4">
             <p class="card-title" id="form-title">Swap NEAT to wNEAT</p>
-
             <form action="javascript:createSwap();">
               <div class="form-outline">
                 <input type="number" class="form-control" id="form-amount" oninput="setNumberDecimal()" step="0.000001"
@@ -83,7 +73,6 @@
                 <input type="text" class="form-control" pattern="^0x[a-fA-F0-9]{40}" id="form-to" required>
                 <label class="form-label" for="form-to" id="form-to-text" style="color:azure">Binance Chain wallet address</label>
               </div>
-
               <div class="form-check" style="padding-left:2.2em; margin-top: 3px;">
                 <input type="checkbox" class="form-check-input" id="warningCheckbox" required>
                 <label class="form-check-label small" for="warningCheckbox">I understand that i will lose my coins by sending
@@ -99,20 +88,13 @@
           </div>
         </div>
       </div>
-
     </div>
-
   </div>
-
-
   <script src="/lib/mdb.min.js"></script>
   <script src="/lib/jquery-3.5.1.min.js"></script>
   <script src="/lib/axios.min.js" crossorigin="anonymous"></script>
   <script src="/lib/toastr.min.js" crossorigin="anonymous"></script>
   <script src="/js/script.js"></script>
   <script src="/js/swap.js"></script>
-
-
 </body>
-
 </html>
