@@ -1,4 +1,11 @@
 @font-face {
+  font-family: "Anita";
+  src: url("../fonts/anita.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Pirulen";
   src: url("../fonts/PirulenRg-Regular.eot");
   src: url("../fonts/PirulenRg-Regular.eot?#iefix") format("embedded-opentype"),
@@ -101,7 +108,7 @@
 }
 
 .headerLeft {
-  font-family: Pirulen !important;
+  font-family: Anita !important;
   font-size: 18px !important;
   font-weight: normal !important;
   text-align: left !important;
